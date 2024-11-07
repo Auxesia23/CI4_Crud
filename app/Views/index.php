@@ -52,7 +52,7 @@
                 <?php endforeach; ?>
         </table>
         <!-- Tombol untuk download CSV -->
-        <a href="<?= base_url('/downloadCsv'); ?>" class="btn btn-primary">Download CSV</a>
+        <a href="<?= base_url('/exportCSV'); ?>" class="btn btn-primary">Download CSV</a>
 
 
     </div>

@@ -206,7 +206,7 @@ class Home extends BaseController
     }
 
 
-    public function downloadCsv()
+    public function exportCSV()
     {
         // Fetch only book data
         $bukuData = $this->model->select_all()->getResultArray();
